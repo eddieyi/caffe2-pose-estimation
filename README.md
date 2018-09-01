@@ -21,7 +21,7 @@ $ cd caffe2-pose-estimation
 
 ## Download Pretrained Model
 
-Please go to folder 'models/' and run the download script:
+Then go to folder 'models/' and run the download script:
 
 ```bash
 $ cd models/
