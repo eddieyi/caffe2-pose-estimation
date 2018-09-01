@@ -51,6 +51,7 @@ Here's an example of a prediction you should expect to see.
 
 **Notes:** The first inference will be slower than the rest due to the program needs to load the model to the GPU memory.
 
+
 ## References
 
 [1] https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation
