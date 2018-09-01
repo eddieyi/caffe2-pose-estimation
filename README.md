@@ -14,7 +14,7 @@ Please refer to the installation steps in the [guide](https://caffe2.ai/docs/get
 
 Clone the repo.
 
-'''
+'''bash
 $ git clone https://www.github.com/eddieyi/caffe2-pose-estimation
 $ cd caffe2-pose-estimation
 '''
@@ -23,7 +23,7 @@ $ cd caffe2-pose-estimation
 
 Please go to folder 'models/' and run the download script:
 
-'''
+'''bash
 $ cd models/
 $ bash download.sh
 '''
@@ -36,7 +36,7 @@ The pretrained model is converted from the original Caffe [model](http://posefs1
 
 To run inference on a directory of image files, you can use the 'infer.py' script. For example, execute the following commands (in the main folder):
 
-'''
+'''bash
 python2 infer.py --image-ext jpg
 ...
 
