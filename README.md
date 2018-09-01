@@ -14,19 +14,19 @@ Please refer to the installation steps in the [guide](https://caffe2.ai/docs/get
 
 Clone the repo.
 
-'''bash
+```bash
 $ git clone https://www.github.com/eddieyi/caffe2-pose-estimation
 $ cd caffe2-pose-estimation
-'''
+```
 
 ## Download Pretrained Model
 
 Please go to folder 'models/' and run the download script:
 
-'''bash
+```bash
 $ cd models/
 $ bash download.sh
-'''
+```
 
 If the automatic download fails, you may manually download the model from [GoogleDrive](https://drive.google.com/open?id=1Ft0Pd4-aKQ0rLx3J4f5Wf4ykf7I8tsO1) or [BaiduYun](https://pan.baidu.com/s/1zkwETLjTQAdaALzWy5IaCg) and then put it in the folder 'models/'.
 
@@ -36,9 +36,9 @@ The pretrained model is converted from the original Caffe [model](http://posefs1
 
 To run inference on a directory of image files, you can use the 'infer.py' script. For example, execute the following commands (in the main folder):
 
-'''bash
+```bash
 python2 infer.py --image-ext jpg
-...
+```
 
 To reduce the GPU memory consumption, the function **'optimize_memory'** is implemented in this script. It deploys the library **'memonger'** of Caffe2, which can release the blob of an OP when the computation of this OP is finished. With this function, for an image with the height of 368, **the GPU memory utilization should be around 1.2 GB, which is about 2~3 times less than the original Caffe implementation**.
 
