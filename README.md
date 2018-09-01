@@ -40,8 +40,10 @@ To run inference on a directory of image files, you can use the 'infer.py' scrip
 python2 infer.py --image-ext jpg
 ```
 
+**Notes:** The first inference will be slower than the rest due to the program needs to load the model to the GPU memory.
+
 ## Saving GPU Memory Consumption
-To reduce the GPU memory consumption, the function 'optimize_memory' is implemented in this script. It deploys the library 'memonger' of Caffe2, which can release the blob of an OP when the computation of this OP is finished. With this function, for an image with the height of 368, the GPU memory utilization should be around 1.2 GB, which is about **2~3** times less than the original Caffe implementation.
+To reduce the GPU memory consumption, the function 'optimize_memory' is implemented in the script 'infer.py'. It deploys the library 'memonger' of Caffe2, which can release the blob of an OP when the computation of this OP is finished. With this function, for an image with the height of 368, the GPU memory utilization should be around 1.2 GB, which is about **2~3** times less than the original Caffe implementation.
 
 Here's an example of a prediction you should expect to see.
 
@@ -50,7 +52,6 @@ Here's an example of a prediction you should expect to see.
     <p>Example pose estimation output</p>
 </dev>
 
-**Notes:** The first inference will be slower than the rest due to the program needs to load the model to the GPU memory.
 
 ##
 
