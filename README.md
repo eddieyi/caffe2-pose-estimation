@@ -8,7 +8,7 @@ Tested on Ubuntu 16.04 LTS with CUDA 8.0, Cudnn5.1 and Python 2.7.
 
 Assuming the NVIDIA drivers, CUDA 8.0, and Cudnn5.1.10 are installed successfully.
 Installing some dependencies for the installation of Caffe framework.
-Please refer to the installation steps in the [guide](https://caffe2.ai/docs/getting-started.html?platform=ubuntu&configuration=compile).
+Please refer to the installation steps in the [Caffe2 installation guide](https://caffe2.ai/docs/getting-started.html?platform=ubuntu&configuration=compile).
 
 ## Install
 
