@@ -56,9 +56,9 @@ Here's an example of a prediction you should expect to see.
 
 ## References
 
-[1] https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation
+[1] https://github.com/facebookresearch/Detectron
 
-[2] https://github.com/facebookresearch/Detectron
+[2] https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation
 
 [3] https://github.com/kevinlin311tw/keras-openpose-reproduce
 
