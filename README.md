@@ -50,10 +50,9 @@ Here's an example of a prediction you should expect to see.
 <div align="center">
     <img src="images/outputs/ski.jpg" width="50%">
     <p>Example pose estimation output</p>
-</dev>
+</div>
 
 
-##
 
 ## References
 
